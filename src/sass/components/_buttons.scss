@@ -1,0 +1,11 @@
+.btn__header {
+  @include outlineStrip;
+  margin-right: 1rem;
+  a {
+    @include btnPadding;
+    background-color: rgba($white-color, 0.1);
+    &:hover {
+      background-color: rgba($white-color, 0.2);
+    }
+  }
+}

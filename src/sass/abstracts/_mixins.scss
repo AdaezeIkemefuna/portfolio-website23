@@ -1,0 +1,40 @@
+@mixin fixedPosition {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+@mixin flexCenterCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flexSpaceCenter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@mixin grayFont400 {
+  font-weight: 400;
+  color: $lighter-gray;
+}
+
+@mixin grayHoverPointer {
+  color: $lighter-gray;
+  cursor: pointer;
+}
+
+@mixin outlineStrip {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+@mixin btnPadding {
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+}
